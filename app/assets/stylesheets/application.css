@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+.fa-book {
+  font-size: 20px;
+  color: #fff;
+}
+
+.btn {
+  background: none;
+  background-color: green;
+  border-radius: 5px;
+  border: 1px solid green;
+  width: 110px;
+  height: 40px;
+}
+
+.btn:hover {
+  background-color: gray;
+  border: 1px solid gray;
+}
+
+.btn:focus {
+  outline: 0;
+}
