@@ -3,6 +3,7 @@ class ApplicationRecord < ActiveRecord::Base
   
   with_options presence: true do
     validates :title
-    validates :body
+    validates :body, length: { maximum: 75}
   end
+  
 end
